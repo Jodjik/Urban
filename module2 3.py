@@ -1,10 +1,11 @@
 my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
-while my_list[0] >= 0:
-    if my_list[0] > 0:
-        print(my_list[0])
-        del my_list[0]
+i = 0
+while i < len(my_list):
+    if my_list[i] > 0:
+        print(my_list[i])
+        del my_list[i]
         continue
-    elif my_list[0] == 0:
-        del my_list[0]
+    elif my_list[i] == 0:
+        del my_list[i]
     else:
         break
