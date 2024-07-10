@@ -4,6 +4,8 @@ print(my_dict.get('Ilya'))
 print(my_dict.get('Oleg'))
 my_dict.update({'Ivan': 26,
                 'Anton': 32})
+i = my_dict.pop('Ilya')
+print(i)
 print(my_dict)
 my_set = {True, 'Anton', 5, 5, True, 55, 5}
 print(my_set)
